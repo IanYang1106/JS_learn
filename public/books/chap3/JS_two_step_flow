@@ -1,0 +1,23 @@
+### Javascript執行兩個階段
+**variable hoisting(變數提升):主要因為JS執行兩階段造成**
+- **建立期**：1A註冊名稱(identifier)先拿名字+進行初始化先undefined 1B
+- **執行期**：執行函數+給值
+- **變數提升**：變數與函數的宣告移動到作用域的最頂端做處理，行為解釋可以當成讓變數被實際宣告前就能使用，但是在var與let/const的狀態不一樣
+- **TDZ(Temporal Dead Zone)**:暫時死區，let/const在建立期先宣告變數，但是如果在宣告之前就進行使用，會直接給referanceError，意即，宣告在需要作用的區域之前，否則提早進行使用會進入暫時死區
+
+- - 使用var進行宣告，console.log在第一階段可以被讀到undefined，等第二階段賦值直接產出結果
+![image](https://hackmd.io/_uploads/rkWQ9c-zye.png =500x)
+![image](https://hackmd.io/_uploads/BkRwq9-zJe.png =500x)
+
+- - 使用let/const進行宣告，宣告完成前使用則進入TDZ，因此會有ReferenceError
+![image](https://hackmd.io/_uploads/B1P2scZz1x.png)
+![image](https://hackmd.io/_uploads/SkFKj9WGyx.png)
+
+- - 使用let可以重新賦值，使用const進行宣告，不能重新賦值，但是陣列元素可以被改變
+let部分：
+![image](https://hackmd.io/_uploads/r1OzpcZfJl.png)
+![image](https://hackmd.io/_uploads/ryPV69bM1l.png)
+const部分：
+![image](https://hackmd.io/_uploads/H1dd3q-f1g.png)
+![image](https://hackmd.io/_uploads/ry_6hcbzyx.png)
+![image](https://hackmd.io/_uploads/B1gaFjWzkx.png)

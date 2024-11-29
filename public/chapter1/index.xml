@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter1s on My New Hugo Site</title>
+    <link>http://localhost:1313/chapter1/</link>
+    <description>Recent content in Chapter1s on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/chapter1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/chapter1/js_install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/chapter1/js_install/</guid>
+      <description>&lt;h3 id=&#34;js-入門環境安裝&#34;&gt;JS 入門環境安裝&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;安裝 VScode-&amp;gt;安裝插件-&amp;gt;延伸模組(需要注意下載人數，避免下錯)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;material icon theme(小圖示)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;前端主要使用&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;HTML&lt;/li&gt;&#xA;&lt;li&gt;CSS&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;JAVAScript(JS)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;進到主控台就能寫 JAVAScript&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;簡單測試 alret 指令跳出警告&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;創建.html 檔案，進入檔案輸入!會產生 HTML 基本檔案&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;安裝插件-&amp;gt;live server，用來直接模擬 html 執行結果&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;&amp;lt;script src = &amp;quot;檔案名稱.js&amp;quot;&amp;gt; &amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;在檔案名稱.js 輸入 console.log(&amp;ldquo;123&amp;rdquo;)在主控台印出 123&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;安裝 node.js-&amp;gt;在終端機輸入 node-&amp;gt;可以仿照控制台狀態-&amp;gt;直接輸入&lt;strong&gt;node 檔案名稱.js&lt;/strong&gt;就可以跑出結果&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;執行 JS = 執行環境(Runtime)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;瀏覽器&lt;/li&gt;&#xA;&lt;li&gt;node(非瀏覽器族群)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

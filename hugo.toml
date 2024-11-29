@@ -1,0 +1,22 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "學習筆記"
+theme = "ananke"  # 假設你使用的是 Ananke 主題
+
+[params]
+sidebar = true  # 啟用側邊欄
+
+[[menu.sidebar]]
+name = "首頁"
+url = "/"
+weight = 1
+
+[[menu.sidebar]]
+name = "關於我們"
+url = "/books/chap1/js_install/"
+weight = 2
+
+[[menu.sidebar]]
+name = "聯繫我們"
+url = "/contact/"
+weight = 3
